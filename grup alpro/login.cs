@@ -13,7 +13,7 @@ namespace grup_alpro
         {
             user nama = new user();
             nama.Show();
-            Visible = false;
+            Visible = false; 
             
         }
     }

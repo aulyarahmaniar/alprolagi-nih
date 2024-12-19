@@ -91,7 +91,7 @@ namespace grup_alpro
 
         private void btnKurang(object sender, EventArgs e)
         {
-           
+
         }
 
         private void Label2(object sender, EventArgs e)
@@ -117,7 +117,17 @@ namespace grup_alpro
         {
             data_pelanggan data = new data_pelanggan();
             data.Show();
-            this.Hide();    
+            this.Hide();
+        }
+
+        private void lblNomor(object sender, EventArgs e)
+        {
+
+        }
+
+        private void menu_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

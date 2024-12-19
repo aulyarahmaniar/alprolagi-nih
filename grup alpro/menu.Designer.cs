@@ -296,6 +296,7 @@
             label44.Size = new Size(13, 15);
             label44.TabIndex = 7;
             label44.Text = "0";
+            label44.Click += lblNomor;
             // 
             // button22
             // 
@@ -368,6 +369,7 @@
             label45.Size = new Size(13, 15);
             label45.TabIndex = 5;
             label45.Text = "0";
+            label45.Click += lblNomor;
             // 
             // button23
             // 
@@ -441,6 +443,7 @@
             label46.Size = new Size(13, 15);
             label46.TabIndex = 6;
             label46.Text = "0";
+            label46.Click += lblNomor;
             // 
             // button24
             // 
@@ -514,6 +517,7 @@
             label47.Size = new Size(13, 15);
             label47.TabIndex = 6;
             label47.Text = "0";
+            label47.Click += lblNomor;
             // 
             // button25
             // 
@@ -587,6 +591,7 @@
             label48.Size = new Size(13, 15);
             label48.TabIndex = 6;
             label48.Text = "0";
+            label48.Click += lblNomor;
             // 
             // button26
             // 
@@ -660,6 +665,7 @@
             label49.Size = new Size(13, 15);
             label49.TabIndex = 6;
             label49.Text = "0";
+            label49.Click += lblNomor;
             // 
             // button27
             // 
@@ -733,6 +739,7 @@
             label50.Size = new Size(13, 15);
             label50.TabIndex = 6;
             label50.Text = "0";
+            label50.Click += lblNomor;
             // 
             // button28
             // 
@@ -806,6 +813,7 @@
             label51.Size = new Size(13, 15);
             label51.TabIndex = 6;
             label51.Text = "0";
+            label51.Click += lblNomor;
             // 
             // button29
             // 
@@ -879,6 +887,7 @@
             label52.Size = new Size(13, 15);
             label52.TabIndex = 6;
             label52.Text = "0";
+            label52.Click += lblNomor;
             // 
             // button30
             // 
@@ -951,6 +960,7 @@
             label53.Size = new Size(13, 15);
             label53.TabIndex = 6;
             label53.Text = "0";
+            label53.Click += lblNomor;
             // 
             // button31
             // 
@@ -1051,6 +1061,7 @@
             label54.Size = new Size(13, 15);
             label54.TabIndex = 7;
             label54.Text = "0";
+            label54.Click += lblNomor;
             // 
             // button13
             // 
@@ -1124,6 +1135,7 @@
             label55.Size = new Size(13, 15);
             label55.TabIndex = 8;
             label55.Text = "0";
+            label55.Click += lblNomor;
             // 
             // button14
             // 
@@ -1198,6 +1210,7 @@
             label56.Size = new Size(13, 15);
             label56.TabIndex = 8;
             label56.Text = "0";
+            label56.Click += lblNomor;
             // 
             // button15
             // 
@@ -1270,6 +1283,7 @@
             label57.Size = new Size(13, 15);
             label57.TabIndex = 8;
             label57.Text = "0";
+            label57.Click += lblNomor;
             // 
             // button16
             // 
@@ -1343,6 +1357,7 @@
             label58.Size = new Size(13, 15);
             label58.TabIndex = 8;
             label58.Text = "0";
+            label58.Click += lblNomor;
             // 
             // button17
             // 
@@ -1415,6 +1430,7 @@
             label59.Size = new Size(13, 15);
             label59.TabIndex = 8;
             label59.Text = "0";
+            label59.Click += lblNomor;
             // 
             // button18
             // 
@@ -1487,6 +1503,7 @@
             label60.Size = new Size(13, 15);
             label60.TabIndex = 8;
             label60.Text = "0";
+            label60.Click += lblNomor;
             // 
             // button19
             // 
@@ -1559,6 +1576,7 @@
             label61.Size = new Size(13, 15);
             label61.TabIndex = 8;
             label61.Text = "0";
+            label61.Click += lblNomor;
             // 
             // button20
             // 
@@ -1631,6 +1649,7 @@
             label62.Size = new Size(13, 15);
             label62.TabIndex = 8;
             label62.Text = "0";
+            label62.Click += lblNomor;
             // 
             // button40
             // 
@@ -1703,6 +1722,7 @@
             label63.Size = new Size(13, 15);
             label63.TabIndex = 8;
             label63.Text = "0";
+            label63.Click += lblNomor;
             // 
             // button41
             // 
@@ -1794,6 +1814,7 @@
             label64.Size = new Size(13, 15);
             label64.TabIndex = 9;
             label64.Text = "0";
+            label64.Click += lblNomor;
             // 
             // button21
             // 
@@ -1881,6 +1902,7 @@
             Name = "menu";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "menu";
+            Load += menu_Load;
             tabControl1.ResumeLayout(false);
             tabPage1.ResumeLayout(false);
             flowLayoutPanel1.ResumeLayout(false);
